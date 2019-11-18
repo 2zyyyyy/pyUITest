@@ -13,7 +13,7 @@
 driver = "chrome"
 
 # 配置运行的URL
-url = "test"
+url = "修改"
 
 # 设置失败重跑次数
 retur = '3'
