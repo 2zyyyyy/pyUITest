@@ -13,6 +13,7 @@ import sys
 from os.path import dirname, abspath
 from Page.operate_login_page import OperateLoginPage
 import pytest
+from time import sleep
 
 sys.path.insert(0, dirname(dirname(abspath(__file__))))
 
@@ -24,9 +25,12 @@ class TestLogin:
         """账户登录成功"""
         page = OperateLoginPage(browser)
         page.get(base_url)
-        page.driver.maximize_window()
-        page.login_phone = '1898984969103'
-        page.login_password = '123456'
+        page.login_phone = '******'
+        page.login_password = '******'
         page.login_button.click()
         sleep(2)
         assert browser.title == 'Civa运营管理平台'
+
+
+if __name__ == '__main__':
+    pytest.main(["-v", "-s", "test_login.py"])
