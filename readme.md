@@ -1,6 +1,6 @@
-**pyUITest Readme**
+## **pyUITest Readme**
+**项目结构**
 ~~~~
-项目结构：
 Allure/:存放Allure2的测试报告。
 Common/:测试用目录
 Page/:存放page层的封装。
@@ -19,5 +19,5 @@ run_tests.py:测试运行文件。
 ~~~~
 **安装依赖**
 ~~~~
-pip install -r ***.txt
+`pip install -r ***.txt`
 ~~~~
