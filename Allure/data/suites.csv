@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCase.test_login.TestLogin#test_operate_login_case","2936","账户登录成功"
+"passed","Common.test_allure_report#test_01","0",""
+"passed","Common.test_allure_report#test_02","0",""

@@ -1,0 +1,97 @@
+{
+  "uid" : "70432463ff88008e",
+  "name" : "test_02",
+  "fullName" : "Common.test_allure_report#test_02",
+  "historyId" : "ea18d31427a8e7fdd7b94dc3270ebdc6",
+  "time" : {
+    "start" : 1576231870313,
+    "stop" : 1576231870313,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "browser_close",
+    "time" : {
+      "start" : 1576231870307,
+      "stop" : 1576231870307,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1576231860758,
+      "stop" : 1576231870307,
+      "duration" : 9549
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "browser_close::0",
+    "time" : {
+      "start" : 1576231873256,
+      "stop" : 1576231875417,
+      "duration" : 2161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Common"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-379RTE6"
+  }, {
+    "name" : "thread",
+    "value" : "6432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Common.test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70432463ff88008e.json",
+  "parameterValues" : [ ]
+}
