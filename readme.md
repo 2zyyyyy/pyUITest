@@ -6,6 +6,7 @@ Common/:测试用目录
 Page/:存放page层的封装。
 TestDir/:测试用例目录。
 Report/:测试json格式测试报告。
+Image/:存放截图目录。
 conftest.py:pytest配置文件。
 run_tests.py:测试运行文件。
 ~~~~
