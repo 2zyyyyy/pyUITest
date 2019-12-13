@@ -19,7 +19,7 @@ run_tests.py:测试运行文件。
 ~~~~
 **安装依赖**
 ~~~~
-`pip install -r ***.txt`
+`pip install -r ***.txt1`
 ~~~~
 **Allure2预览**
 
