@@ -1,7 +1,7 @@
 **pyUITest Readme**
 ~~~~
 项目结构：
-Allure/:存放Allure2的测试报告
+Allure/:存放Allure2的测试报告。
 Common/:测试用目录
 Page/:存放page层的封装。
 TestDir/:测试用例目录。
