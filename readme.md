@@ -1,9 +1,11 @@
 **pyUITest Readme**
 ~~~~
 项目结构：
+Allure/:存放Allure2的测试报告
+Common/:测试用目录
 Page/:存放page层的封装。
 TestDir/:测试用例目录。
-TestReport/:测试报告目录。
+Report/:测试json格式测试报告。
 conftest.py:pytest配置文件。
 run_tests.py:测试运行文件。
 ~~~~

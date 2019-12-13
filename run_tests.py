@@ -14,7 +14,7 @@ import time
 import logging
 import os
 import sys
-from conftest import REPORT_DIR
+from conftest import XML_REPORT_DIR, ALLURE_REPORT_DIR
 from conftest import cases_path, rerun, max_fail
 import pytest
 
@@ -22,11 +22,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
-def init_env(now_time):
-    """
-    初始化测试报告目录
-    """
-    os.mkdir(REPORT_DIR + now_time)
+# def init_env(now_time):
+#     """
+#     初始化测试报告目录
+#     """
+#     os.mkdir(REPORT_DIR + now_time)
 
 
 @click.command()
@@ -35,14 +35,11 @@ def run(m):
     if m is None or m == 'run':
         logger.info("回归模式，开始执行-->")
         logger.info(cases_path)
-        now_time = time.strftime("%Y_%m_%d_%H_%M_%S")
-        init_env(now_time)
-        html_report = os.path.join(REPORT_DIR, now_time, "report.html")
-        xml_report = os.path.join(REPORT_DIR, now_time, "junit-xml.xml")
-        pytest.main(["-s", "-v", cases_path,
-                     "--html=" + html_report,
-                     "--junit-xml=" + xml_report,
-                     "--self-contained-html"])
+        # now_time = time.strftime("%Y-%m-%d %H-%M-%S")
+        # init_env(now_time)
+        args = ['-s', '-q', '--alluredir', './Report/']
+        pytest.main(args)
+        os.popen('allure generate %s -o %s' % (XML_REPORT_DIR, ALLURE_REPORT_DIR + ' --clean'))
         logger.info("运行结束，生成测试报告...")
     elif m == "debug":
         print("debug模式运行测试用例：")

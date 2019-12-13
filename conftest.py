@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 """
-@File : conftest.py 
+@File : conftest.py
 @Contact : android4google@163.com
 @MTime : 2019/11/13 15:12 
 @Author: zhangyun
@@ -20,7 +20,8 @@ from selenium.webdriver.firefox.options import Options as FF_Options
 
 # 项目目录配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-REPORT_DIR = BASE_DIR + "/TestReport/"
+XML_REPORT_DIR = BASE_DIR + "/Report/"
+ALLURE_REPORT_DIR = BASE_DIR + "/Allure/"
 
 # 配置浏览器驱动类型(chrome/firefox/chrome-headless/firefox-headless)。
 driver_type = "chrome"
