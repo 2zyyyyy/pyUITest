@@ -22,4 +22,5 @@ run_tests.py:测试运行文件。
 `pip install -r ***.txt`
 ~~~~
 **Allure2预览**
+
 ![image](https://github.com/2zyyyyy/pyUITest/blob/master/Screenshot/Allure2测试报告截图.png)
