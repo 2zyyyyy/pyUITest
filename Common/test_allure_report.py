@@ -12,14 +12,14 @@
 import os
 
 
-def test_01():
-    assert 1 == 1
-
-
-def test_02():
-    assert 1 + 1 == 2
-
-
-if __name__ == '__main__':
-    pytest.main(["--alluredir Report Common"])
-    os.popen("allure generate Report\\ -o Allure\\ --clean")
+# def test_01():
+#     assert 1 == 1
+#
+#
+# def test_02():
+#     assert 1 + 1 == 2
+#
+#
+# if __name__ == '__main__':
+#     pytest.main(["--alluredir Report Common"])
+#     os.popen("allure generate Report\\ -o Allure\\ --clean")
