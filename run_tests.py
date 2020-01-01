@@ -39,7 +39,7 @@ def run(m):
         # init_env(now_time)
         args = ['-s', '-q', '--alluredir', './Report/']
         pytest.main(args)
-        os.popen('allure generate %s -o %s' % (XML_REPORT_DIR, ALLURE_REPORT_DIR + ' --clean'))
+        # os.popen('allure generate %s -o %s' % (XML_REPORT_DIR, ALLURE_REPORT_DIR + ' --clean'))
         logger.info("运行结束，生成测试报告...")
     elif m == "debug":
         print("debug模式运行测试用例：")

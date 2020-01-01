@@ -1,3 +1,0 @@
-[32mINFO    [0m poium.page_objects:page_objects.py:128 1 times search, ('id', 'username') 
-[32mINFO    [0m poium.page_objects:page_objects.py:128 1 times search, ('id', 'password') 
-[32mINFO    [0m poium.page_objects:page_objects.py:128 1 times search, ('xpath', "//*[@class='btns-lock']")
